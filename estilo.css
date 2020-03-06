@@ -13,3 +13,10 @@ body{
         font-family: Arial, Helvetica, sans-serif;
         color:white;
     }
+
+
+    b.one{
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:#9ACD32				;
+    }
