@@ -1,3 +1,5 @@
+
+/* adicionando formato por tag */
 body{
     background: #4F4F4F		;
     }
@@ -14,9 +16,21 @@ body{
         color:white;
     }
 
-
+/* adicionando formato para mesma tag, mas em uma nova classe */
     b.one{
         font-size: 35px;
         font-family: Arial, Helvetica, sans-serif;
         color:#9ACD32				;
+    }
+
+    /* adicionando formato para mesma QUALQUER, mas em uma nova classe (classe generica) */
+    .centro{
+        text-align: center;
+    }
+
+    /* adicionando formato para tags especificar, mas em uma nova classe */
+    i,h3,h4{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:#4B0082				;
     }
